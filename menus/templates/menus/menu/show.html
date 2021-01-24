@@ -1,0 +1,6 @@
+<h4> Hello! </h4>
+I share with you today's menu :)  <br/><br/>
+
+{% for item in dishes %}
+   Option {{forloop.counter}}: {{ item.name }} <br/>
+{% endfor %}

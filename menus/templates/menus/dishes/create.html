@@ -1,0 +1,6 @@
+<h3>Create dishes</h3>
+<form action="/dishes/new" method="post" class="dishes-form">
+    {{ form.as_p }}
+    <p><input type="submit" value="Send dishes"></p>
+    {% csrf_token %}
+</form>

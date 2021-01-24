@@ -1,0 +1,9 @@
+<h3>Send notifications</h3>
+<br/> <br/>
+
+<p> the notification will send for the <b>{{menus.name}}</b> </p>
+
+<form action="./create" method="post" class="notifications-form">
+    <p><input type="submit" value="Send notification for menu"></p>
+    {% csrf_token %}
+</form>

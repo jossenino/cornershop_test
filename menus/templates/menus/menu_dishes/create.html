@@ -1,0 +1,6 @@
+<h3>Join dishes with menus</h3>
+<form action="/menus/dishes/join" method="post" class="menus-dishes-form">
+    {{ form.as_p }}
+    <p><input type="submit" value="Send dishes"></p>
+    {% csrf_token %}
+</form>
